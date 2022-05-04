@@ -14,7 +14,7 @@ if __name__ == '__main__':
  █  █ █  █ █▀▀█ █  █ █   █▄▄█  █ █ █ █▀▀ █ ▀█ █▄▄█  █▀▀▄ █▄▄▀ █  █   █    https://github.com/evgenyunholy         
  ▀▄▄▀ █  █ █  █ ▀▀▀▀ ▀▀▀ ▄▄▄█  █   █ ▀▀▀ ▀▀▀▀ █  █  █▄▄█ █ ▀▀  ▀▀▀   █    Donations: 1AandaUm4J47BRuGeVz66jE24o3fymxT1Z
     ''')
-    symb = int(input("1 - BitcoinMnemoBrut \n2 - EthMnemoBrut \n3 - UnholyCasasciusBrut \n4 - Bitcoin Balance Checker \n5 - Checking Private keys BTC, ETH, DOGE, LTC & DASH \n6 - BrainwalletEthBtc FullGeN \n7 - UnholyBrainwalletBrut \n8 - PrivatKeyGen \nChoose : "))
+    symb = int(input("1 - BitcoinMnemoBrut \n2 - EthMnemoBrut \n3 - UnholyCasasciusBrut \n4 - Bitcoin Balance Checker \n5 - Checking Private keys BTC, ETH, DOGE, LTC & DASH \n6 - BrainwalletEthBtc FullGeN \n7 - UnholyBrainwalletBrut \n8 - PrivatKeyGen&check(ETH, BTC) \nChoose : "))
     if symb == 1:
         os.system("python BitcoinMnemoBrut.py")
         pass

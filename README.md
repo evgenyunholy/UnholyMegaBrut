@@ -24,6 +24,10 @@ https://mega.nz/folder/e15hgDZR#ypdx7ULcBR6rvleFM8_CIA
     
 7 - UnholyBrainwalletBrut
     Put your file in "slovari" folder and rename "words.txt"
+    Check in BTC and ETH.
     
 8 - PrivatKeyGen&check(ETH, BTC)
     Random generation private keys and check in ETH and BTC
+
+
+

@@ -1,0 +1,1 @@
+Generator.exe -r "[1234567890ABCDEFGHJIKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]{3:3} " words.txt 

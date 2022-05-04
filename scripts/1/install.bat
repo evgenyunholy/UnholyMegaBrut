@@ -1,0 +1,15 @@
+pip install bit
+pip install codecs
+pip install secrets
+pip install base58
+pip install colored
+pip install bit
+pip install bit
+pip install bit
+pip install bit
+pip install bit
+pip install bit
+pip install bit
+pip install bit
+pip install bit
+pip install bit

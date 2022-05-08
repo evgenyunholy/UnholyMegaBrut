@@ -2,7 +2,22 @@
 # -*- coding: utf-8 -*-
 from bloomfilter import BloomFilter
 import sys
-bf = BloomFilter(size=line_count, fp_prob=1e-16)
+
+
+def bloom_filter():
+    print("[I] Bloom Filter START")
+    print("[I] File input -> " + file_txt)
+    print("[I] File output -> " + file_bf)
+    bf = BloomFilter(size=line_count, fp_prob=1e-16)
+
+    print("[I] ADD Bloom Filter")
+    add_to_bf(file_txt, line_count, bf)
+
+    print("[I] Bloom Filter Start Save File")
+    with open(file_bf, "wb") as fp:
+        bf.save(fp)
+    print("[I] Bloom Filter END Save File")
+
 
 def count_lines(file):
 	return sum(1 for line in open(file, 'r'))

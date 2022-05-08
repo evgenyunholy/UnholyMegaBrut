@@ -1,6 +1,6 @@
 @echo off
 
-ccd %~dp0
+cd %~dp0
 
 set database_filename=Bitcoin_addresses_LATEST.txt.gz
 set database_url=http://addresses.loyce.club/Bitcoin_addresses_LATEST.txt.gz

@@ -36,9 +36,15 @@ For install:
 
 
 pip install bit
+
 pip install simplebloomfilter
+
 pip install bitarray==1.9.2
+
 pip install colored
+
 pip install eth_keys
+
 pip install bip32
+
 
